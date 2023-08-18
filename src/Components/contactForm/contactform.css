@@ -1,0 +1,39 @@
+.contactform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.contactform img{
+    height: 50vh;
+}
+
+.upr-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 15px;
+}
+.form_control input , textarea {
+    padding: 12px;
+    background-color:rgb(219, 231, 239);
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: none;
+    
+}
+.form_control label{
+    font-size:.7rem ;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background-color:rgb(219, 231, 239) ;
+    padding: 2px;
+}
+

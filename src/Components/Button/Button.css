@@ -1,0 +1,40 @@
+.btn{
+    padding: 10px 10px;
+    display: flex;
+    border-radius:5px ;
+    background-color: black;
+    border: 3px white;
+    color: white;
+    align-items: center;
+    gap: 8px;
+    min-width: 200px;
+    justify-content: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:.4s ease all;
+}
+
+.Outline{
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(248, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:5px ;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    gap: 8px;
+    min-width: 200px;
+    justify-content: center;
+}
+
+.Outline:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition:.4s ease all;
+    
+}

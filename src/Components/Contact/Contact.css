@@ -1,0 +1,12 @@
+.contact{
+    padding: 0 10px;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact p{
+    font-size: 1.1rem;
+}
